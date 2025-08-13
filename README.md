@@ -36,3 +36,8 @@ localStorage API – Saves data persistently in the browser
 📜 Last 3 Entries – Displays the most recent entries at the bottom.
 
 ♻ Clear Button – Quickly clear the text area for new input.
+
+
+## 📸 Screenshot
+![Hero’s Journal Screenshot](./hero-journal-screenshot.png)
+
