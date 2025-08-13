@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hero’s Journal — Daily Motivation</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>⚔️ Hero’s Journal</h1>
+      <p id="today"></p>
+    </header>
+
+    <section class="quote-card">
+      <p id="quote">Tap “Get Quote” for today’s buff.</p>
+      <button id="getQuoteBtn">Get Quote</button>
+    </section>
+
+    <section class="journal">
+      <label for="entry">Today’s Mission Log</label>
+      <textarea id="entry" rows="6" placeholder="What did you grind today? Wins, struggles, lessons…"></textarea>
+      <div class="actions">
+        <button id="saveBtn" type="button">Save Entry (+10 XP)</button>
+        <button id="clearBtn" class="ghost" type="button">Clear</button>
+      </div>
+    </section>
+
+    <section class="xp">
+      <div class="xp-row">
+        <span>Total XP:</span>
+        <strong id="xpTotal">0</strong>
+      </div>
+      <div class="bar">
+        <div id="xpBar"></div>
+      </div>
+      <small>Level up every 100 XP</small>
+      <div class="xp-row">
+        <span>Level:</span>
+        <strong id="level">1</strong>
+      </div>
+    </section>
+
+    <section class="history">
+      <h2>🗒️ Last 3 Entries</h2>
+      <ul id="historyList"></ul>
+      <button id="viewAllBtn" class="ghost" type="button">View All in Console</button>
+    </section>
+
+    <footer class="footer">
+      <small>Made by Bryan Dave • Project 21</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
